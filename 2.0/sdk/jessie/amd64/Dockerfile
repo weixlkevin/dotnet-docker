@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie-scm
+FROM  microsoft/dotnet:latest
 
 # Install .NET CLI dependencies
 RUN apt-get update \
